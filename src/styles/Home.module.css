@@ -1,0 +1,45 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.featuredArticles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  width: 100%;
+}
+
+.articleTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.articleImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.bookingButton {
+  background-color: #0070f3;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.bookingButton:hover {
+  background-color: #005bb5;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
